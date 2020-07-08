@@ -137,7 +137,7 @@ public class FileHeaderUtil {
      */
     private static boolean isSkipType(String type) {
         // 获取文件头为空的类型
-        Set<String> types = HEADER_TYPE_MAP.get("");
+        Set<String> types = HEADER_TYPE_MAP.get(StringUtils.EMPTY);
         return type != null && types.contains(type);
     }
     
