@@ -35,7 +35,7 @@ public class FileHeaderUtil {
     static {
         /*
          * 文件头与文件类型是多对多的关系，如zip：504b0304、504b0506，以及504b0304：zip、docx、pptx，另外有些文件如txt没有文件头
-         * 文件头尽可能宽松，防止常见类型无法通过校验，比如视频抓拍的截图是ffd8fffe，与查到详细文件头是没有匹配的
+         * 文件头尽可能宽松，防止常见类型无法通过校验，比如遇到通过视频抓拍的截图是ffd8fffe，与查到详细文件头是没有匹配的
          * 参考来源：https://www.filesignatures.net/index.php , http://www.nicetool.net/embed/file_signature.html
          */
         Map<String, String[]> typeHeaderArrMap = new HashMap<>();
