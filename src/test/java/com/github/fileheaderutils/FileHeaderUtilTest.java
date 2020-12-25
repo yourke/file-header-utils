@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * 文件头工具类Test
  *
- * @author yuanke
+ * @author yonker
  * @date 2020/2/27 19:37
  */
 public class FileHeaderUtilTest {

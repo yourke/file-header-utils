@@ -17,7 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * 文件头工具类
  * 
- * @author yuanke
+ * @author yonker
  * @date 2019/11/20 21:01
  */
 public class FileHeaderUtil {

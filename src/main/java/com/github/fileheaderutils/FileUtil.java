@@ -16,7 +16,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile;
 /**
  * 文件Util
  *
- * @author yuanke
+ * @author yonker
  * @date 2020/2/27 19:47
  */
 public class FileUtil {
